@@ -16,3 +16,6 @@ var uitkomst = [];
 app.get("/", function(response){
     response.sendfile(__dirname + '/CalculatorHtml.html');
 });
+
+//berekening dat ze allemaal moet doen
+app.get("/uitkomst", function(response)
