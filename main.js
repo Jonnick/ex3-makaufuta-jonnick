@@ -32,3 +32,6 @@ app.post("/", function(request, response){
     console.log(uitrekenen);
     response.status(203).send(uitkomst);
 });
+
+//host code 4567
+app.listen(4567);
