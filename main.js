@@ -7,3 +7,7 @@ var app = express
 app.use(bodyparser.urlencoded({
     extended: true
 }));
+
+//json pakket maan maken in naam van bodyparser
+app.use(bodyparser.json());
+var uitkomst = [];
