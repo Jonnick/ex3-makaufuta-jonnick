@@ -19,3 +19,7 @@ app.get("/", function(response){
 
 //berekening dat ze allemaal moet doen
 app.get("/uitkomst", function(response)
+
+//om json terug te sturen
+  {response.send(uitkomst);
+});
