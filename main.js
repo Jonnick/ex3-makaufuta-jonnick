@@ -35,3 +35,7 @@ app.post("/", function(request, response){
 
 //host code 4567
 app.listen(4567);
+
+
+//om te laten werken
+console.log("Start server...");
